@@ -1,0 +1,33 @@
+.body{
+    margin: 0;
+    padding: 0; 
+}
+.navbar {
+    margin: 0;
+    padding: 5px;
+    background-color: palevioletred;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    width: 50%;
+    margin: auto;
+}
+#date{
+    font-size: 25px;
+    color: gray;
+}
+#image{
+    width: 100%;
+    border-radius: 10px;
+}
