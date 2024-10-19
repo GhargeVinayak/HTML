@@ -1,0 +1,32 @@
+#main-heading{
+    text-align: center;
+    color: blue;
+}
+#header-text{
+    text-align: center;
+    color: blue;
+}
+#external-css{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    outline: 10px inset lightgreen;
+    outline-offset: 2px;
+    color: orangered;
+}
+.test-class{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+p.test-class{
+    margin: 50px;
+}
+body{
+    background-image: url('545909.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}

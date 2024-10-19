@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Page</title>
+    <style>
+        form {
+            margin: 30px auto;
+            width: 500px;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input,
+        select,
+        textarea {
+
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Task 1: Contact Form -->
+    <h2>Contact Form</h2>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <!-- Task 2: Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <fieldset>
+            <legend>Registeration</legend>
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" required><br><br>
+
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+            <label for="traveling">Traveling</label><br>
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports">Sports</label><br><br>
+
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select><br><br>
+
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <!-- Task 3: Feedback Form -->
+    <h2>We Value Your Feedback</h2>
+    <form>
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback-name">Name:</label><br>
+            <input type="text" id="feedback-name" name="feedback-name" required><br><br>
+
+            <label for="feedback-message">Feedback/Comments:</label><br>
+            <textarea id="feedback-message" name="feedback-message" rows="5" cols="40" required></textarea><br><br>
+
+            <label>Rating (1-5 stars):</label><br>
+            <input type="radio" id="1-star" name="rating" value="1">
+            <label for="1-star">1 Star</label><br>
+            <input type="radio" id="2-star" name="rating" value="2">
+            <label for="2-star">2 Stars</label><br>
+            <input type="radio" id="3-star" name="rating" value="3">
+            <label for="3-star">3 Stars</label><br>
+            <input type="radio" id="4-star" name="rating" value="4">
+            <label for="4-star">4 Stars</label><br>
+            <input type="radio" id="5-star" name="rating" value="5">
+            <label for="5-star">5 Stars</label><br><br>
+
+            <label>Would you recommend our service?</label><br>
+            <input type="checkbox" id="recommend-yes" name="recommend" value="yes">
+            <label for="recommend-yes">Yes</label><br>
+            <input type="checkbox" id="recommend-no" name="recommend" value="no">
+            <label for="recommend-no">No</label><br><br>
+
+            <input type="submit" value="Submit Feedback">
+        </fieldset>
+    </form>
+</body>
+
+</html>
